@@ -1,0 +1,21 @@
+$kind: http-request
+name: localhost:8080/api/products
+description: ""
+url: localhost:8080/api/products
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: "{\r
+
+    \  \"id\": 3,\r
+
+    \  \"name\": \"Teclado mecánico\",\r
+
+    \  \"price\": 150.0,\r
+
+    \  \"stock\": 25\r
+
+    }"
+order: 1000

@@ -1,0 +1,11 @@
+$kind: http-request
+name: localhost:8080/api/products/1/stock
+description: ""
+url: localhost:8080/api/products/1/stock
+method: PATCH
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: "{\r\n  \"stock\": 10\r\n}"
+order: 3000

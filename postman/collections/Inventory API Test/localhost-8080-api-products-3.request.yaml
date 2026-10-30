@@ -1,0 +1,8 @@
+$kind: http-request
+name: localhost:8080/api/products/3
+description: ""
+url: localhost:8080/api/products/122hgdd
+method: GET
+headers:
+  Content-Type: application/json
+order: 2000
